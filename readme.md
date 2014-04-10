@@ -1,0 +1,1 @@
+Jest to aplikacja w PHP pozwalająca przechowywać zadania dla różnych przedmiotów.

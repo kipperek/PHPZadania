@@ -1,0 +1,124 @@
+body{
+	margin: 20px 20px 20px 20px;
+	font-family: Tahoma;
+	font-size: 16px;
+}
+h2{
+	margin: 10px 0 2px 0;
+}
+hr{
+	text-align: left;
+	margin:0 0 10px 0;
+	height: 1px;
+	border: none;
+	background: black;
+}
+hr.hrMenu{
+	width: 200px;
+}
+hr.hrContent{
+	width: 500px;
+}
+.login{
+	border-radius: 4px;
+	outline: 0;
+	border: 1px solid;
+	padding-left: 10px;
+	margin-right: 10px;
+	font-size: 14px;
+	height: 20px;
+	display: inline-block;
+}
+.form_error{
+color: #B2262C;
+font-size: 12px;
+margin-bottom: 5px;
+}
+
+input[type="submit"], input[type="reset"], button{
+	font-size: 14px;
+	outline: 0;
+	width: 70px;
+	height: 25px;
+	background: #B2262C;
+	border-radius: 5px;
+	border: 1px black solid;
+	color: white;
+}
+input[type="submit"]:hover, input[type="reset"]:hover, button:hover{
+	color: white;
+	background: #322361;
+}
+#loggedDiv, #loginDiv{
+	min-width: 1000px;
+}
+
+#loggedDiv{
+	font-size: 20px;
+}
+
+#content{
+position: absolute;
+top: 100px;
+min-width: 1100px;
+}
+
+.tableDiv{
+	margin: 0 0 0 0;
+	display: inline-block;
+	vertical-align: top;
+}
+.menuDiv{
+	min-width: 500px;
+	margin: 0 50px 0 0;
+	display: inline-block;
+	vertical-align: top;
+}
+.tab{
+	margin-left: 20px;
+}
+a{
+	text-decoration: none;
+	color: #322361;
+}
+a:hover{
+	color: #B2262C;
+}
+
+.table{
+	border-collapse:collapse;
+	margin-top: 5px;
+	min-width: 480px;
+}
+.table td, .table tr, .table th{
+	border: 1px solid black;
+}
+.table td{
+	
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+}
+.table th{
+	background: #B2262C;
+	color: white;
+}
+.gw{
+	color: #B2262C;
+	font-weight: bold;
+}
+.formDescription{
+	font-size: 12px;
+	color: #919191;
+}
+.formTable{
+	border-collapse:collapse;
+	margin-bottom: 20px;
+	min-width: 480px;
+}
+.formTable td{
+	padding: 10px 18px 10px 0;
+}
+.formTable tr{
+	border-bottom:1px solid #919191;
+	border-top:1px solid #919191;
+}
