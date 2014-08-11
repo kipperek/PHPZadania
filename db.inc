@@ -2,8 +2,8 @@
 		class DataBase{
 		private $db;
 		private $conn = 'mysql:host=localhost;dbname=kacperczechowi_z;charset=utf8';
-		private $base = 'kacperczechowi_z';
-		private $pass = '1991Kropcia';
+		private $base = '****';
+		private $pass = '****';
 		
 		function __construct(){
 			try{
